@@ -15,5 +15,7 @@ outs:
 - md5: 77df6bf5004af242df96c867a66465e5
   path: metrics/train_metric.json
   cache: false
-  metric: true
+  metric:
+    type: json
+    xpath: training_time
   persist: false

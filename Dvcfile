@@ -1,0 +1,18 @@
+md5: 0ab135ffdac38a7055c2140d6673ecb6
+cmd: python3 code/eval.py
+wdir: .
+deps:
+- md5: a5257a91e73920bdd4cafd0f88105b74
+  path: data/processed_test_data.npy
+- md5: d72417286b48ba89f02d83ca3f9642d4
+  path: data/model.pkl
+- md5: 75c6e9b5ffa5ab5bbf83b7c3e8de188d
+  path: code/eval.py
+outs:
+- md5: 42e05a4d1c5f16b21c304c269178b5a8
+  path: metrics/eval.json
+  cache: false
+  metric:
+    type: json
+    xpath: accuracy
+  persist: false
