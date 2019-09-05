@@ -1,0 +1,12 @@
+md5: 03ea98b3c4cc96702c8d36cb581a3a2a
+wdir: .
+locked: true
+deps:
+- etag: '"529e832d-687ff3a"'
+  path: https://pjreddie.com/media/files/mnist_train.csv
+outs:
+- md5: 5b49cf1b57fb9d6102b559d59d99df7c
+  path: data/train_data.csv
+  cache: true
+  metric: false
+  persist: false

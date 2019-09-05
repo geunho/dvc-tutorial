@@ -1,0 +1,12 @@
+md5: 01d6c559d10b89b186a4fed4dde14840
+wdir: .
+locked: true
+deps:
+- etag: '"529e8334-1171323"'
+  path: https://pjreddie.com/media/files/mnist_test.csv
+outs:
+- md5: c807df8d6d804ab2647fc15c3d40f543
+  path: data/test_data.csv
+  cache: true
+  metric: false
+  persist: false
