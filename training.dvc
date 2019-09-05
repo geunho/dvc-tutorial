@@ -1,0 +1,19 @@
+md5: 04342bdd244df5804733a947289587ad
+cmd: python3 code/train_model.py
+wdir: .
+deps:
+- md5: 9ee0468925c998fda26d197a14d1caec
+  path: data/processed_train_data.npy
+- md5: 655c3242c17b3d0213d7ce4d9f78344d
+  path: code/train_model.py
+outs:
+- md5: d72417286b48ba89f02d83ca3f9642d4
+  path: data/model.pkl
+  cache: true
+  metric: false
+  persist: false
+- md5: 77df6bf5004af242df96c867a66465e5
+  path: metrics/train_metric.json
+  cache: false
+  metric: true
+  persist: false
